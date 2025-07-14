@@ -1,4 +1,4 @@
-name: STACKBULD CI
+name: STACKBULD CD
 
 on:
   push:

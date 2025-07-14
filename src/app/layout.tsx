@@ -67,7 +67,7 @@ export default function RootLayout({
         <QueryProvider>
           <Header />
           <div className="min-h-screen flex flex-col items-center">
-            <main className="flex-1 w-full max-w-5xl px-5 py-8">{children}</main>
+            <main className="flex-1 w-full px-5 py-8 max-w-6xl">{children}</main>
           </div>
         </QueryProvider>
       </body>
